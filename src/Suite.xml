@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite 1" >
+	<listeners>
+	      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+	      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
+	<parameter name="browsers" value="Chrome"/>
+	<test name="TestCase 1">
+   		<classes>
+	   		<class name="com.automation.test.Billing"/>
+	   		<class name="com.automation.test.Claims_Payer"/>
+	   		<class name="com.automation.test.PayerScreen"/>
+   		</classes>
+  	</test>
+</suite> 
