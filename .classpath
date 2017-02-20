@@ -12,5 +12,7 @@
 	<classpathentry kind="lib" path="C:/Users/ss14/workspace/Jar/selenium-server-standalone-3.0.0-beta2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ss14/workspace/Jar/extentreports-2.41.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ss14/Downloads/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ss14/Downloads/db scripts/dbunit-2.4.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ss14/Downloads/db scripts/jtds-1.2.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
